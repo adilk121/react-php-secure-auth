@@ -9,15 +9,17 @@ User profile page
 User logout functionality
 
 
-##Installation
+## Installation
 
-Clone the repository to your local machine.
+Clone the repository to your local machine by clicking on the link.
 
-Import the database.sql file to your MySQL database.
+https://github.com/adilk121/react-php-secure-auth.git
+
+Import the login_system.sql file from root to your MySQL database.
 
 Navigate to the api directory and run composer install to install the necessary dependencies.
 
-Rename the .env.example file to .env and update the DB_HOST, DB_NAME, DB_USER, and DB_PASS values to match your MySQL database configuration.
+Open the database.php file and update the DB_HOST, DB_NAME, DB_USER, and DB_PASS values to match your MySQL database configuration.
 
 Start the PHP server by running php -S localhost:8000 from the api directory.
 
