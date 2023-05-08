@@ -2,7 +2,7 @@
 function generate_jwt($headers, $payload, $secret = 'secret')
 {
     $headers_encoded = base64url_encode(json_encode($headers));
-
+//
     $payload_encoded = base64url_encode(json_encode($payload));
 
     $signature = hash_hmac(
