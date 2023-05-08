@@ -1,12 +1,24 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Secure login system built using React Mysql and  PHP with JWT tokens for authentication. It allows users to register, login, and view their profile information. (https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Features
+User registration
+User login with JWT token authentication
+User profile page
+User logout functionality
 
-In the project directory, you can run:
 
-### `npm start`
+##Installation
+
+Clone the repository to your local machine.
+Import the database.sql file to your MySQL database.
+Navigate to the api directory and run composer install to install the necessary dependencies.
+Rename the .env.example file to .env and update the DB_HOST, DB_NAME, DB_USER, and DB_PASS values to match your MySQL database configuration.
+Start the PHP server by running php -S localhost:8000 from the api directory.
+Navigate to the client directory and run npm install to install the necessary dependencies.
+Start the React app by running npm start from the client directory.
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
