@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is a Secure login system built using React Mysql and  PHP with JWT tokens for authentication. It allows users to register, login, and view their profile information. (https://github.com/facebook/create-react-app).
+This project is a Secure login system built using React Mysql and  PHP with JWT tokens for authentication. It allows users to register, login, and view their profile information. (https://github.com/adilk121/react-php-secure-auth).
 
 ## Features
 User registration
