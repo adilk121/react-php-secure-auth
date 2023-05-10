@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 export default function AccountConfirm() {
   const navigate = useNavigate()
   const [code, setCode] = useState('')
-
+//alert()
   const codeHandler = (event) => {
     setCode(event.target.value)
   }
